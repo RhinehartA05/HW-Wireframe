@@ -1,0 +1,83 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background: #777;
+    color: #777
+    
+}
+
+header {
+    background: #ebebeb;
+    height: 70px;
+    line-height: 70px;
+}
+/* Not sure why the margin between header and nav are not adjustable. */
+
+nav {
+    background: #ebebeb;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    
+    
+}
+
+#section {
+    background: #ebebeb;
+    color: #777;
+    height: 240px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 560px;
+    float: left;
+
+}
+
+/* not sure how to push "article" text down so it's centered similar to the image  */
+#article {
+    background: #777;
+    color: #ebebeb;
+    height: 170px;
+    width: 540px;
+    margin: 0 auto;
+    
+}
+
+.p1 {
+    background: #ebebeb;
+    color: #777;
+    width: 495px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+.p2 {
+    background: #ebebeb;
+    color: #777;
+    width: 495px;
+    margin: 10px auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+#aside {
+    width: 380px;
+    height: 240px;
+    background: #ebebeb;
+    color: #777;
+    float: right;
+    
+}
+
+footer {
+    
+    background: #ebebeb;
+    height: 70px;
+    line-height: 70px;
+    clear: both;
+}
